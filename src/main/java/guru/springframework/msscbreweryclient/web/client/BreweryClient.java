@@ -22,7 +22,7 @@ public class BreweryClient {
     //Spring inject RestTemplate Builder
     public BreweryClient(RestTemplateBuilder restTemplate) {
         this.restTemplate = restTemplate.build();
-
+        //Just a test
     }
 
     public BeerDto getBeerById(UUID uuid) {
